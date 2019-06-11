@@ -1,10 +1,12 @@
-// Make a label for each pin being used
+// Make labels for each pin being used
 #define LED_NS_RED          7
 #define LED_NS_YELLOW       6
 #define LED_NS_GREEN        5
 #define LED_EW_RED          4
 #define LED_EW_YELLOW       3
 #define LED_EW_GREEN        2
+
+#define LED_DEBUG          13
 
 // Function declarations
 void All_Off();
@@ -24,6 +26,8 @@ void setup() {
     pinMode(LED_EW_YELLOW, OUTPUT);
     pinMode(LED_EW_GREEN, OUTPUT);
 
+    pinMode(LED_DEBUG, OUTPUT);
+    
     // Turn all lights off
     All_Off();
 
