@@ -29,7 +29,8 @@ unsigned long Next_Light_Change = 0;
 int Current_State;
 int Next_State;
 
-// The setup routine runs once (when the board turns on, when you press reset, or when you program the board) 
+// The setup routine runs once (when the board turns on, when you press reset, or when
+// you program the board) 
 void setup() {
     // Set pins with LEDs connected to outputs
     pinMode(LED_NS_RED, OUTPUT);
