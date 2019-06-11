@@ -32,7 +32,7 @@ int Next_State;
 // The setup routine runs once (when the board turns on, when you press reset, or when
 // you program the board) 
 void setup() {
-    // Set pins with LEDs connected to outputs
+    // Set pins with LEDs connected as outputs
     pinMode(LED_NS_RED, OUTPUT);
     pinMode(LED_NS_YELLOW, OUTPUT);
     pinMode(LED_NS_GREEN, OUTPUT);
