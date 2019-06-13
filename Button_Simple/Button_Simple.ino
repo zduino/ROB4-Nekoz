@@ -17,7 +17,7 @@ void setup() {
   // Set pins with buttons connected as inputs
   pinMode(BTN_TOP, INPUT);
   pinMode(BTN_BOTTOM, INPUT);
-
+  
   // Set up Serial bus
   Serial.begin(9600);
 }
